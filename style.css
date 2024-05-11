@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'Gontserrat';
+    src: url('fonts/Gontserrat-Black.ttf');
+}
+
+@font-face {
+    font-family: 'Gontserrat-Regular';
+    src: url('fonts/Gontserrat-Regular.ttf');
+}
+
+body {
+    font-family: Gontserrat, sans-serif;
+    margin: 0 10%;
+    background-color: #F8F9FA;
+    color: #212529;
+}
+
+.container {
+    border: 2px solid #343A40;
+    border-radius: 7px;
+    padding: 10px;
+    margin:  10px;
+}
+
+.color-container {
+    width: 100%;
+}
+
+.color-panel {
+    font-family: 'Courier Prime', Courier, monospace;
+    font-weight: 700;
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
+    border-radius: 8px;
+    border: 2px solid #343A40;
+}
+
+.eerie-black {
+    background-color: #212529;
+    color: #F8F9FA;
+}
+
+.onyx {
+    background-color: #343A40;
+    color: #F8F9FA;
+}
+
+.platinum {
+    background-color: #E9ECEF;
+    color: #212529;
+}
+
+.font-panel {
+    width: 45%;
+    display: inline-block;
+}
+
+.font-label {
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.regular {
+    font-style: normal;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.gontserrat {
+    font-family: Gontserrat, sans-serif;
+}
+
+.courier-prime {
+    font-family: 'Courier Prime', Courier, monospace;
+}
+
+.text-panel h1 {
+    font-weight: 700;
+    font-size: 32px;
+    font-family: 'Gontserrat', sans-serif;
+}
+
+.text-panel h2, .subheading {
+    font-size: 18px;
+    font-family: 'Gontserrat-Regular', sans-serif;
+}
+
+.text-panel p, .paragraph {
+    font-weight: 700;
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+}
